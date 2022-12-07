@@ -1,0 +1,72 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+
+#mainbox{
+	height: 400px;
+	width: 400px;
+	display: flex;
+	margin-left: 480px;
+	margin-top: 50px;
+	flex-wrap: wrap;
+	background-color: green;
+}
+.bomb{
+	height: 40px;
+	width: 40px;
+	font-size: 25px;
+	text-align: center;
+	background-color: grey;
+	cursor: pointer;
+	border: 5px solid;
+  	border-color: #f5f3eb #bab7a9 #bab7a9 #fff9db;
+  	box-sizing: border-box;
+  	/*opacity: 0.5;*/
+}
+.valid{
+	height: 40px;
+	width: 40px;
+	font-size: 25px;
+	text-align: center;
+	background-color: grey;
+	cursor: pointer;
+	border: 5px solid;
+  	border-color: #f5f3eb #bab7a9 #bab7a9 #fff9db;
+  	box-sizing: border-box;
+}
+
+.checked {
+  height: 40px;
+  width: 40px;
+  border: 2px solid;
+  background-color: #cecab7;
+  border-color: #9c998d;
+  box-sizing: border-box;
+}
+
+.mark{
+	background-image: url("https://www.google.com/logos/fnbx/minesweeper/flag_icon.png");
+	background-size: cover;
+}
+#result{
+	color: green;
+	text-align: center;
+	font-size: 25px;
+}
+
+#imgid{
+	height: 20px;
+	width: 20px;
+}
+span{
+	font-size: 20px;
+}
+#top{
+	margin-top: 100px;
+	text-align: center;
+}
+#flagcount{
+	font-size: 20px;
+	margin-right: 30px;
+}
